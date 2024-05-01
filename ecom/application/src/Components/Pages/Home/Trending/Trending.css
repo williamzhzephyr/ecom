@@ -1,0 +1,46 @@
+@media (min-width: 1400px) {
+    section.trending {
+        width: 100%;
+        max-width: 1320px;
+    }
+}
+
+section.trending {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+section.trending .container {
+    width: 100%;
+}
+
+section.trending .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.trending .items {
+    display:flex;
+    font-weight: 600;
+}
+
+section.trending .items p:not(:last-child) {
+    margin-right: 40px;
+}
+
+section.trending .items p:hover {
+    cursor:pointer;
+}
+
+.underline {
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+.trending img {
+    width: 312px;
+    height: 354px;
+}

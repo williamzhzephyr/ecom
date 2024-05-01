@@ -1,0 +1,10 @@
+.container-outer {
+    font-size: 14px;
+}
+
+.container-inner {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}

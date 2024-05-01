@@ -1,0 +1,31 @@
+@media (min-width: 1400px) {
+    .mid-nav {
+        width: 1320px;
+    }
+}
+
+.mid-nav,
+.mid-nav>.nav-items {
+    display: flex;
+}
+
+.mid-nav {
+    margin: 50px 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid-nav h4 {
+    margin: 0 15px;
+}
+
+.mid-nav h4:hover,
+.mid-nav .icon-mid:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.mid-nav .icon-mid {
+    margin-left:30px;
+    font-size:25px;
+}

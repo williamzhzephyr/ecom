@@ -1,0 +1,6 @@
+/ecom/application/.gitignore
+/ecom/application/node_modules
+/ecom/application/build
+/ecom/server/dist
+/ecom/server/node_modules
+/gitignore

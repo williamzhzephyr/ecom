@@ -1,0 +1,44 @@
+@media (min-width: 1400px) {
+    .top-nav {
+        width: 1320px;
+    }
+}
+
+.top-nav {
+    padding-top: 10px;
+}
+
+.top-nav,
+.top-nav-left,
+.top-nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav-left>div,
+.top-nav-right>div {
+    cursor: pointer;
+}
+
+.top-nav-left>div {
+    margin-right: 30px
+}
+
+.top-nav-right>div {
+    margin-right: 30px;
+}
+
+.icon:not(:first-child) {
+    margin-left: 30px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: gray;
+    transition: transform 0.5s ease;
+}
+
+.icon:hover {
+    color: red;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

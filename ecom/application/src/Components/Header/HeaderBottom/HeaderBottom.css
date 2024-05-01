@@ -1,0 +1,22 @@
+.bottom-nav {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+
+.bottom-nav p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.bottom-nav span > a {
+    color:#CEBD9C !important;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s
+}
+
+.bottom-nav span > a:hover {
+    cursor: pointer;
+    letter-spacing: 2px;
+}
